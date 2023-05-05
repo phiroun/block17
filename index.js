@@ -34,4 +34,4 @@ const coffeeMenuSeasonalDrink = coffeeMenu.filter(
 const coffeeMenuSeasonalWIB = coffeeMenuSeasonal.map(
   (coffeeMenu) => coffeeMenu.name
 );
-console.log(coffeeMenuSeasonalList + "with imported beans");
+console.log('${coffeeMenuSeasonalList}' + "=>" + "with imported beans");
